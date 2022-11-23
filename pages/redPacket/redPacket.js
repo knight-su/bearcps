@@ -1,1 +1,4 @@
-page()
+const app = getApp();
+Page({
+	"data":{}
+})

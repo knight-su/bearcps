@@ -44,5 +44,11 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  gotoRedPacket() {
+    wx.switchTab({
+      url: '/pages/redPacket/redPacket'
+    })
   }
+
 })

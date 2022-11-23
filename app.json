@@ -1,10 +1,14 @@
 {
+    "entryPagePath":"pages/logs/logs",
     "pages": ["pages/index/index", "pages/logs/logs", "pages/redPacket/redPacket"],
     "window": {
         "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
-        "navigationBarTextStyle": "black"
+        "navigationBarBackgroundColor": "#26C",
+        "navigationBarTitleText": "五星熊请你领红包",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true,
+        "backgroundColor":"#4609F5FF",
+        "backgroundTextStyle":"light"
     },
     "tabBar": {
         "color": "#fff0f5",
@@ -14,8 +18,11 @@
             "pagePath": "pages/index/index",
             "text": "首页"
         }, {
-            "pagePath": "pages/logs/index",
-            "text": "日志"
+            "pagePath": "pages/logs/logs",
+            "text": "实用工具"
+        },{
+            "pagePath": "pages/redPacket/redPacket",
+            "text": "外卖红包"
         }]
     },
     "style": "v2",
