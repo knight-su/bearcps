@@ -1,5 +1,5 @@
-<view>
-	<cover-image src="../../icons/饿了么.png">
+<view class="container">
+	<cover-image src="../../images/icons/饿了么.png">
 		
 	</cover-image>
 </view>
