@@ -1,5 +1,7 @@
 <view class="container">
-	<cover-image src="../../images/icons/饿了么.png">
-		
-	</cover-image>
+	<i-row>
+    	<i-col span="5" i-class="col-class">col-8111111111</i-col>
+    	<i-col span="8" i-class="col-class">col-82222222222222</i-col>
+    	<i-col span="13" i-class="col-class">col-833333333333</i-col>
+	</i-row>
 </view>
