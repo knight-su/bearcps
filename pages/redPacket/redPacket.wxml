@@ -1,7 +1,7 @@
-<view class="container">
-	<i-row>
-    	<i-col span="5" i-class="col-class">col-8111111111</i-col>
-    	<i-col span="8" i-class="col-class">col-82222222222222</i-col>
-    	<i-col span="13" i-class="col-class">col-833333333333</i-col>
-	</i-row>
+<view wx:for="{{redPacketList}}">
+	<i-card title="{{item.title}}" extra="{{item.extra}}" thumb="{{item.icon}}" data-redpacket="{{item}}" bindtap="skipOtherMiniProgram">
+	<view slot="content">内容不错</view>
+    <view slot="footer">尾部内容</view>
+</i-card>
 </view>
+

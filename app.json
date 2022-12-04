@@ -1,5 +1,5 @@
 {
-    "entryPagePath":"pages/logs/logs",
+    "entryPagePath":"pages/redPacket/redPacket",
     "pages": ["pages/index/index", "pages/logs/logs", "pages/redPacket/redPacket"],
     "window": {
         "backgroundTextStyle": "light",
@@ -15,14 +15,11 @@
         "selectedColor": "",
         "backgroundColor": "",
         "list": [{
-            "pagePath": "pages/index/index",
-            "text": "首页"
+            "pagePath": "pages/redPacket/redPacket",
+            "text": "红包福利"
         }, {
             "pagePath": "pages/logs/logs",
             "text": "实用工具"
-        },{
-            "pagePath": "pages/redPacket/redPacket",
-            "text": "外卖红包"
         }]
     },
     "style": "v2",
