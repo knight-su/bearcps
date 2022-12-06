@@ -1,7 +1,10 @@
 <view wx:for="{{redPacketList}}">
-	<i-card title="{{item.title}}" extra="{{item.extra}}" thumb="{{item.icon}}" data-redpacket="{{item}}" bindtap="skipOtherMiniProgram">
-	<view slot="content">内容不错</view>
-    <view slot="footer">尾部内容</view>
-</i-card>
+    <i-card bindtap="skipOtherMiniProgram" data-redpacket="{{item}}" extra="{{item.extra}}" thumb="{{item.icon}}" title="{{item.title}}">
+        <view slot="content">
+            {{item.content}}
+        </view>
+        <view slot="footer">
+            {{item.footer}}
+        </view>
+    </i-card>
 </view>
-
