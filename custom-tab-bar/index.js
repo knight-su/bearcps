@@ -1,32 +1,24 @@
 Page({
     data: {
-        current: 'redpacket',
+        current: '0',
         list: [{
-            "pagePath": "pages/redPacket/redPacket",
+            "pagePath": "/pages/redPacket/redPacket",
             "text": "红包福利"
         }, {
-            "pagePath": "pages/logs/logs",
+            "pagePath": "/pages/logs/logs",
             "text": "实用工具"
         }]
     },
     handleChange({
         detail
     }) {
+    	// wx.switchTab({
+     //        url: this.data.list[detail.key].pagePath
+     //    });
         console.log(detail)
         this.setData({
             current: detail.key
         });
-        if (detail.key == 'redpacket') {
-            wx.switchTab({
-                url: '/pages/redPacket/redPacket'
-            })
-            return;
-        }
-        if (detail.key == 'tool') {
-            wx.switchTab({
-                url: '/pages/logs/logs'
-            })
-            return;
-        }
+        
     }
 });

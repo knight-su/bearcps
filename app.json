@@ -2,26 +2,27 @@
     "entryPagePath": "pages/redPacket/redPacket",
     "pages": ["pages/index/index", "pages/logs/logs", "pages/redPacket/redPacket"],
     "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#26C",
+
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#950000",
         "navigationBarTitleText": "五星熊请你领红包",
-        "navigationBarTextStyle": "black",
-        "enablePullDownRefresh": true,
-        "backgroundColor": "#4609F5FF",
-        "backgroundTextStyle": "light"
+        "navigationBarTextStyle": "white"
     },
     "tabBar": {
-        "color": "#fff0f5",
-        "selectedColor": "",
+        "selectedColor": "#DA2A35",
         "backgroundColor": "",
         "list": [{
             "pagePath": "pages/redPacket/redPacket",
-            "text": "红包福利"
+            "text": "红包福利",
+            "selectedIconPath": "/images/tabBarIcons/fenxiao_icon_fenhong@2x.png",
+            "iconPath": "/images/tabBarIcons/iconfont-card.png"
         }, {
             "pagePath": "pages/logs/logs",
-            "text": "实用工具"
+            "text": "实用工具",
+            "selectedIconPath": "/images/tabBarIcons/a-classify.png",
+            "iconPath": "/images/tabBarIcons/classify.png"
         }],
-        "custom": true
+        "custom": false
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json",

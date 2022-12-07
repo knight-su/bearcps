@@ -1,5 +1,6 @@
-<view wx:for="{{redPacketList}}">
-    <i-card bindtap="skipOtherMiniProgram" data-redpacket="{{item}}" extra="{{item.extra}}" thumb="{{item.icon}}" title="{{item.title}}">
+<view wx:for="{{redPacketList}}" class="v1">
+	
+		<i-card bindtap="skipOtherMiniProgram" data-redpacket="{{item}}" extra="{{item.extra}}" thumb="{{item.icon}}" title="{{item.title}}">
         <view slot="content">
             {{item.content}}
         </view>
@@ -7,4 +8,5 @@
             {{item.footer}}
         </view>
     </i-card>
+	
 </view>
