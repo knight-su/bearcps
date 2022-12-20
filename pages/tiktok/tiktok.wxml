@@ -1,0 +1,11 @@
+<view>
+	<i-panel title="x1">
+    	<i-input value="{{shorturl}}" type="textarea" title="抖音短链" mode="normal" bindinput="inputCom" placeholder="请复制粘贴并点击下载按钮" />
+    	<i-button bind:click="handleClick" type="success" size="small" shape="circle">点击下载</i-button>
+	</i-panel>
+
+
+	<view class="v1">
+		备注：视频去水印，只能去除抖音官方的水印，无法去除视频内本身的水印。
+	</view>
+</view>

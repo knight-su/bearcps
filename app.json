@@ -1,6 +1,6 @@
 {
     "entryPagePath": "pages/redPacket/redPacket",
-    "pages": ["pages/index/index", "pages/logs/logs", "pages/redPacket/redPacket"],
+    "pages": ["pages/index/index", "pages/logs/logs", "pages/redPacket/redPacket", "pages/tools/tools","pages/tiktok/tiktok"],
     "window": {
 
         "backgroundTextStyle": "dark",
@@ -17,7 +17,7 @@
             "selectedIconPath": "/images/tabBarIcons/fenxiao_icon_fenhong@2x.png",
             "iconPath": "/images/tabBarIcons/iconfont-card.png"
         }, {
-            "pagePath": "pages/logs/logs",
+            "pagePath": "pages/tools/tools",
             "text": "实用工具",
             "selectedIconPath": "/images/tabBarIcons/a-classify.png",
             "iconPath": "/images/tabBarIcons/classify.png"

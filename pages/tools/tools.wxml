@@ -1,0 +1,6 @@
+<i-card bindtap="skipOtherMiniProgram" data-redpacket="{{item}}" extra="点击去水印" thumb="https://cps-nj.oss-cn-nanjing.aliyuncs.com/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20221212204400.png" title="抖音视频" class="v1">
+        <view slot="content">
+            输入抖音短链即可获取无水印视频哟~
+        </view>
+</i-card>
+
